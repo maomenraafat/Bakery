@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Alegreya Sans", sans-serif;
+}
+p {
+  color: #686868;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alegreya", sans-serif;
+}
+.clear-fix {
+  clear: both;
+}
+
+/* ------------------navbar-------------- */
+.navbar {
+  overflow: hidden;
+  padding: 20px 0;
+}
+.navbar-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar-img {
+  display: inline-block;
+  width: 30%;
+}
+.navbar-img img {
+  width: 49%;
+}
+
+.navbar-list {
+  display: inline-block;
+  width: 65%;
+  text-align: right;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+
+.navbar-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar-list ul li {
+  display: inline-block;
+  color: #f8f8f8;
+  font-size: 18px;
+  padding: 0 18px;
+}
+/* ------------------heading-------------- */
+.heading {
+  color: #f8f8f8;
+  text-align: center;
+  margin-top: 135px;
+}
+.heading h1 {
+  font-size: 76px;
+  font-weight: 400;
+}
+.heading-text-1 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: #f8f8f8;
+}
+.heading-text-2 {
+  font-size: 24px;
+  width: 50%;
+  margin: 10px auto 30px;
+  color: #f8f8f8;
+  line-height: 2;
+}
+.btn {
+  padding: 15px 28px;
+  border: solid 2px transparent;
+  color: #f8f8f8;
+  background-color: transparent;
+  font-weight: 700;
+  border-radius: 4px;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.btn-1 {
+  background-color: #8e7754;
+}
+.btn-2 {
+  border-color: #f8f8f8;
+  margin-left: 10px;
+}
+.background {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+.home {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* -----------------------about--------------------------- */
+.about {
+  margin-top: 80px;
+  padding: 20px;
+}
+.about-container {
+  width: 80%;
+  margin: auto;
+}
+.about-img {
+  display: inline-block;
+  width: 47%;
+  background-color: aqua;
+}
+.about-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.about-text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  text-align: left;
+  padding-top: 80px;
+  margin: 0 25px 25px 65px;
+  line-height: 1.86em;
+}
+.about-text h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.about-text p {
+  margin-bottom: 25px;
+}
+
+.icon-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.icon-list p {
+  display: inline-block;
+}
+
+.icon-list li {
+  font-size: 18px;
+  height: 60px;
+}
+.about-list ul {
+  padding-left: 0;
+}
+
+.icon-list img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+/* -----------------------location--------------------------- */
+
+.location {
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+.location-container {
+  width: 80%;
+  padding-top: 30px;
+
+  margin: 22px auto;
+}
+
+.location-img {
+  display: inline-block;
+  width: 47%;
+}
+.location-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+.location-text {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 50%;
+  text-align: left;
+  padding-top: 80px;
+  margin-bottom: 65px;
+  margin-right: 25px;
+  line-height: 1.86em;
+  font-size: 17px;
+}
+.location-p1 {
+  margin-bottom: 20px;
+}
+
+.location h2 {
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: 400;
+}
+/* ------------------------ourbaking------------------------------------- */
+
+.ourbaking {
+  margin-top: 40px;
+  padding: 40px;
+}
+.ourbaking h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 32px;
+}
+.ourbaking p {
+  text-align: center;
+  margin-top: 17px;
+}
+.ourbaking-container {
+  padding: 30px 40px;
+  margin: 40px 30px 22px;
+}
+.ourbaking .item {
+  width: 33.333%;
+  float: left;
+  text-align: center;
+  padding: 0 25px;
+}
+.item img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.ourbaking .item h4 {
+  color: #303030;
+  line-height: 1.38em;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.ourbaking .item p {
+  font-size: 17px;
+  line-height: 1.86em;
+}
+/* ------------------------contact------------------------------------- */
+
+.contact {
+  margin-top: 20px;
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+.contact-container {
+  padding: 45px 58px;
+  margin: 0 77px;
+}
+.contact-text {
+  float: left;
+
+  width: 40%;
+  padding: 35px 15px;
+}
+.contact-img {
+  float: right;
+  width: 45%;
+  margin-right: 20px;
+}
+/* .contact-img img {
+  width: 100%;
+  vertical-align: middle;
+} */
+
+.contact-text h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 400;
+}
+.contact-text .text {
+  margin-bottom: 50px;
+  line-height: 1.86em;
+  font-size: 17px;
+}
+
+.contact-icon-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.contact-icon-list p {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.contact-icon-list li {
+  font-size: 18px;
+  height: 60px;
+}
+
+.contact-icon-list img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+/* ------------------------footer-main------------------------------------- */
+.footer-main {
+  background-color: #403d38;
+  padding: 60px 0;
+}
+.footer-main-container {
+  font-size: 16px;
+  margin: 0 100px;
+  padding: 0 15px;
+}
+.footer-main-container .section {
+  float: left;
+  width: 25%;
+  padding: 0 25px;
+  /* margin-left: 18px; */
+}
+
+.footer-main-container .section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer-main-container .section li {
+  color: #969696;
+  padding-bottom: 7px;
+  margin-bottom: 6;
+}
+.section .border {
+  width: 100%;
+  height: 0.1px;
+  background-color: #888787;
+  margin: 10px auto;
+  opacity: 20%;
+}
+
+.section ul img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.section ul p {
+  vertical-align: top;
+  display: inline-block;
+  width: 80%;
+}
+.section ul p,
+a {
+  padding-left: 10px;
+  color: #969696;
+}
+.section ul a {
+  text-decoration: none;
+}
+.section ul span {
+  padding-left: 10px;
+}
+
+.footer-main .section h4 {
+  color: #ffff;
+  line-height: 1.38em;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer-main .section p {
+  color: #969696;
+  line-height: 1.38em;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.86em;
+}
+
+.footer-main-container .section .contact-detailes-bg-img {
+  background-image: url(../images/contact-details-map.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(64, 61, 56, 0.9999999);
+  background-blend-mode: overlay;
+}
+
+/* ------------------------footer-main------------------------------------- */
+.footer-bottom {
+  background-color: #353330;
+  padding: 50px 0;
+  text-align: center;
+}
+.footer-bottom-container {
+  font-size: 16px;
+  margin: 0 27px;
+  padding: 0 15px;
+}
+.footer-bottom-container .footer-img {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.footer-bottom-container p {
+  padding: 0 20px;
+  color: #777777;
+}
+
+.footer-bottom-container .footer-icons {
+  margin-top: 15px;
+  padding-top: 8px;
+}
+.footer-bottom-container .footer-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
